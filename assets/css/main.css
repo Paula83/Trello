@@ -1,0 +1,102 @@
+
+body{
+	background: #1da1f2;
+	width: 100%; 
+
+}
+
+/*header*/
+header{
+	background-color: #0079bf;
+	width: 1500px;
+	height: 100px;
+}
+
+/*imagen*/
+.logo img{
+	width: 200px;
+	height: 100px;
+	margin-left: 700px;
+	margin-top: 0px;
+	display: inline-block;
+
+}
+
+/* Menu de iconos*/
+menu{
+	width: 1500px
+	background:#1da1f2;
+	list-style: none;
+
+}
+ .menu li{
+ 	display: inline-block;
+ }
+
+ .menu li i{
+ 	padding: 40px,30px;
+ 	display: inline-block;
+ 	color: #FFFFFF;
+ 	margin-left:80px;
+}
+
+.tab {
+	width: 15px;
+	height: 5px;
+	color: #fff;
+	font-size: 10px;
+	font-family:sans-serif;
+	display: inline-block;
+	margin-left:0px;
+	
+}
+
+/*cuadro inicial añadir lista*/
+
+.container{
+	width: 200px;
+	height: 50px;
+	margin-left: 500px;
+	margin-top: 100px;
+	padding: 50px;
+	text-align: center;
+	display: inline-block;
+
+}
+textarea{
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	background:#FFFFFF;
+    font-size: 8px;
+    font-family: sans-serif;
+	border: none;
+}
+
+	
+	
+
+  /*Formulario para añadir lista tareas*/
+.dos{
+	width: 200px;
+	height: 50px;
+	margin-left: 500px;
+	
+	padding: 50px;
+	text-align: center;
+	display: inline-block;
+}
+
+
+button{
+	background: #3ADF00;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	border: none;
+	font-size: 8px;
+
+}
+
+
+
+
