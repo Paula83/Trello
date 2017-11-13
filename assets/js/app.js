@@ -1,20 +1,29 @@
-/*Se debe alternar entre ocultar panel de añadir lista y agregar  
- formulario*/
+//crear evento boton
+var tecla= document.getElementById("boton");
+tecla.addEventListener("click", function (){
 
-/*Se llaman los elementos*/
+//Limpiar area de tarea 
+ var tarea = document.getElementById("tarea").value;
+ document.getElementById("tarea").value = ""; 
 
-  var boton = document.getElementByID("bton");
-  boton.addEventListener("click", function ()){
+ //Lista de tareas
+ var contenedor = document.getElementById("contenedor");
+
+var newTarea = document.createElement("div");
+
+//Oculta Formulario 
+function ocultar(){
+document.getElementsByclass('formulario').style.display = 'none';}
+
+  
+
+  
 
 
-  var tareaUno = document.getElementsByClass("container").value;
+ 
+  
+  
+  
 
 
-  var tareaDos = document.getElementsByIClass("tarea").value;
-
-  /*alternar paneles
-  if()
-
-
-
- }
+})

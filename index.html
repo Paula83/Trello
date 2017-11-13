@@ -4,6 +4,7 @@
       <meta charset="UTF-8">
       <title>Trello</title>
       <link rel="stylesheet" href="assets/css/main.css">
+
    </head>
    <body>
       <header>
@@ -21,29 +22,39 @@
                </li>
                <li><i class="fa fa-search" aria-hidden="true"></i></li>
                <li><i class="fa fa-plus-square-o" aria-hidden="true"></i></li>
-               <li><i class="fa fa-info-circle" aria-hidden="true"></i></li>
+               <li><i class="fa fa-info-circle" aria-hidden="true"></i></li> 
                <li><i class="fa fa-bell" aria-hidden="true"></i></li>
             </ul>
          </div>
       </header>
-      <!--cuadro inicial para añadir lista de tareas -->
-      <section class="uno">
-         <div class="container">
-            <textarea class="txt" id="inicial" placeholder="Añadir una lista..."></textarea>
-         </div>
+      <!--Para añadir lista de tareas -->
+      <section class="tablero">
+         <input type="text" placeholder="Añadir una lista...">
       </section>
-      <!--Formulario para añadir tareas-->
-      <section class="dos">
-         <textarea class="txt" id="lista" cols="30" rows="10">
-                  </textarea>
-         <div class="tareas">
-            <button type="button" id="bton" ></i>Guardar</button>
+      <!-- parte formulario, para agregar tareas-->
+
+      <section id= "formulario">
+         <textarea class="txt" id="tarea" placeholder="Agrega tarea "></textarea>
+
+         <!--Div vacio -->
+         <div id="contenedor"></div>
+
+          <!--Boton-->
+         <div>
+         <button type="button" id = "boton">Guardar</button>
          </div>
       </section>
       <!-- contenedor para comentarios -->
-      <div id="contenedor"></div>
+      
       </div>
+
+
+
+
+
+
       <script src="https://use.fontawesome.com/ed2e47e94a.js"></script> 
       <script src="assets/js/app.js"></script>
+     
    </body>
 </html>
