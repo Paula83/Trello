@@ -1,60 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>Trello</title>
-      <link rel="stylesheet" href="assets/css/main.css">
+   <!DOCTYPE html>
+   <html lang="en">
+      <head>
+         <meta charset="UTF-8">
+         <title>Trello</title>
+         <link rel="stylesheet" href="assets/css/main.css">
 
-   </head>
-   <body>
-      <header>
-         <!--imagen-->
-         <div class="logo">
-            <img src="assets/img/logo.jpg" >
+      </head>
+      <body>
+         <header>
+            <!--imagen-->
+            <div class="logo">
+               <img src="assets/img/logo.jpg" >
+            </div>
+            <!--Menu de Iconos-->
+            <div>
+               <ul class = "menu">
+                  <li>
+                     <i class="fa fa-trello" aria-hidden="true"></i>
+                     <p class="tab">Tablero</p>
+                  </li>
+                  <li><i class="fa fa-search" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-plus-square-o" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-info-circle" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+               </ul>
+            </div>
+         </header>
+         <!--Añadir lista -->
+         <section>
+            <textarea type="text" value="mostrar/ocultar" id="lista" placeholder="Agrega tu lista..." ></textarea>
+            <!--Para añadir lista de tareas -->
+         <div class="tareas">
+               <textarea type="text" value="mostrar/ocultar" id="tareaInput" placeholder="Agrega tu tarea" onfocus="deleteTextAreaText()"></textarea>
+               <div id="listaTareas"></div>
          </div>
-         <!--Menu de Iconos-->
-         <div>
-            "
-            <ul class = "menu">
-               <li>
-                  <i class="fa fa-trello" aria-hidden="true"></i>
-                  <p class="tab">Tablero</p>
-               </li>
-               <li><i class="fa fa-search" aria-hidden="true"></i></li>
-               <li><i class="fa fa-plus-square-o" aria-hidden="true"></i></li>
-               <li><i class="fa fa-info-circle" aria-hidden="true"></i></li> 
-               <li><i class="fa fa-bell" aria-hidden="true"></i></li>
-            </ul>
-         </div>
-      </header>
-      <!--Para añadir lista de tareas -->
-      <section class="tablero">
-         <input type="text" placeholder="Añadir una lista...">
-      </section>
-      <!-- parte formulario, para agregar tareas-->
+               <button type="button" value="mostrar/ocultar" id="button" onclick ="listaTareas()">Añadir</button>
+         </section>
 
-      <section id= "formulario">
-         <textarea class="txt" id="tarea" placeholder="Agrega tarea "></textarea>
-
-         <!--Div vacio -->
-         <div id="contenedor"></div>
-
-          <!--Boton-->
-         <div>
-         <button type="button" id = "boton">Guardar</button>
-         </div>
-      </section>
-      <!-- contenedor para comentarios -->
-      
-      </div>
-
-
-
-
-
-
-      <script src="https://use.fontawesome.com/ed2e47e94a.js"></script> 
-      <script src="assets/js/app.js"></script>
-     
-   </body>
-</html>
+        <!--script-->
+         <script src="https://use.fontawesome.com/ed2e47e94a.js"></script>
+         <script src="assets/js/app.js"></script>
+        
+      </body>
+   </html>
